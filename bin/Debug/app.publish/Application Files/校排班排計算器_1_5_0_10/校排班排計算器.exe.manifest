@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity version="1.5.0.10" name="校排班排計算器.exe" publicKeyToken="2a1f8fea13f8b92d" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="CPCC.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="校排班排計算器" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="校排班排計算器.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC 資訊清單選項
+             如果您要變更 Windows 使用者帳戶控制層級，請將 
+            requestedExecutionLevel 節點取代為下列其中一項。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            指定 requestedExecutionLevel 節點將會停用檔案和登錄虛擬化。
+            如果您要針對回溯相容性使用檔案及登錄虛擬化，
+            請刪除 requestedExecutionLevel 節點。
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="校排班排計算器.exe" size="216576">
+      <assemblyIdentity name="校排班排計算器" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>zmHnDOLan6/f0C3rKxhPDG8FVEo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="CPCC.ico" size="70228">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>zWuEjZNZyrgXna6f0bKs0zdcyvE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="校排班排計算器.pdb" size="54784">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ZAk1N83MN6hR3L9APL6s/jIeKK4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="校排班排計算器.xml" size="705">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>atW6KgkeZNoA7aMzyT0i7AUbIYM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- 可配合此應用程式使用的所有 Windows 版本的清單。Windows 會自動選取最相容的環境。-->
+      <!-- 如果您的應用程式是設計成配合 Windows 7 運作，請取消註解下列 supportedOS 節點-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN={2CAE8950-8F56-4491-A588-837897B39792}" issuerKeyHash="6226edcebe641ddde9ba5cac4643ff742536ed83" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>2h+m/86GszwBgIGMfpl472mdRPU=</DigestValue></Reference></SignedInfo><SignatureValue>UFqWM2BdtK5tQcRbvrEyfdvF9vCli8aFpYWZm3CaVweyO+PioQgl1dFac0tLN8f+YuekByRhXwCIY0KyW++Oyvst0ZfbCBowlyoaoXxArW6ZFJ3Vp5Bbj0FOBGWfyQfI1WySNvN5WKegPmOheEH859QYWmZHNHwOqM5Pq11dMoM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>p5POJ8hRb+C6lg9eP7dJGmMRaeg+b7mqn4EIAnWe8HB/GffgHA20RKdushUJuunobjasx1nlF9c5QR2+EdNM2LkGYMcDDtxl8Zikah6KuNiSXjGhoDKMSLEzerVtGaTI552XwWYn4NwI9xkPSHH4nesMwBSo/JhJd+DpwFysmk0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f5449d69ef78997e8c8180013cb386ceffa61fda" Description="" Url=""><as:assemblyIdentity version="1.5.0.10" name="校排班排計算器.exe" publicKeyToken="2a1f8fea13f8b92d" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN={2CAE8950-8F56-4491-A588-837897B39792}</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>V2cV0wKReugDteckr5w4Rbmj7ro=</DigestValue></Reference></SignedInfo><SignatureValue>k0ieaDHZgEnzsDZ81qOK3jNJXs/9qnMoSpTqFAx7A2/4rkqIsq4OnfvToA7MFa/JXDyvCmfTXGkB4uCwHdDZwcVtg1PyfXiRa+/Azv8I8hh1W69q+SFV5IeqkbdFakWN5ESfpw7VfZ3i9CtMyiDOU+UaWj1XAIJVwD8Xuj262vU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>p5POJ8hRb+C6lg9eP7dJGmMRaeg+b7mqn4EIAnWe8HB/GffgHA20RKdushUJuunobjasx1nlF9c5QR2+EdNM2LkGYMcDDtxl8Zikah6KuNiSXjGhoDKMSLEzerVtGaTI552XwWYn4NwI9xkPSHH4nesMwBSo/JhJd+DpwFysmk0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICKTCCAZagAwIBAgIQUJf/JbRpA49CcFz60WxawTAJBgUrDgMCHQUAMFcxVTBTBgNVBAMeTAB7ADIAQwBBAEUAOAA5ADUAMAAtADgARgA1ADYALQA0ADQAOQAxAC0AQQA1ADgAOAAtADgAMwA3ADgAOQA3AEIAMwA5ADcAOQAyAH0wHhcNMTQwNTMxMTM0OTMxWhcNMTUwNTMxMTk0OTMxWjBXMVUwUwYDVQQDHkwAewAyAEMAQQBFADgAOQA1ADAALQA4AEYANQA2AC0ANAA0ADkAMQAtAEEANQA4ADgALQA4ADMANwA4ADkANwBCADMAOQA3ADkAMgB9MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCnk84nyFFv4LqWD14/t0kaYxFp6D5vuaqfgQgCdZ7wcH8Z9+AcDbREp26yFQm66ehuNqzHWeUX1zlBHb4R00zYuQZgxwMO3GXxmKRqHoq42JJeMaGgMoxIsTN6tW0ZpMjnnZfBZifg3Aj3GQ9Icfid6wzAFKj8mEl34OnAXKyaTQIDAQABMAkGBSsOAwIdBQADgYEAeHSlulp4NozE12AryErJMAJEms02I9IEJcP1SvPkql/PadVU3LgQluc3t4s7rIxGDUl7TNm6M69tXBPak5it7OOOVGJYPG2qlkwTI8gN/ARhVhmvZ/pgrAKl+y4LMToj0oeg0M0rAeKRlO37qn+3JrIeILoc268ywn7DRnbh0SA=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

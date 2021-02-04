@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectView>ProjectFiles</ProjectView>
+    <PublishUrlHistory>c:\|https://6724b5c636460db1f1529436eee60b6c0c0bb26b.googledrive.com/host/0B8_e0aXbv6sONHJRRW43OUg4WVE/|https://drive.google.com/folderview%3fid=0B8_e0aXbv6sONHJRRW43OUg4WVE&amp;usp=sharing/|F:\校排班排計算器\安裝版\|F:\</PublishUrlHistory>
+    <InstallUrlHistory>\\c\校排班排計算器\|\\c\g\</InstallUrlHistory>
+    <SupportUrlHistory />
+    <UpdateUrlHistory>http://localhost/校排班排計算器/</UpdateUrlHistory>
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory />
+    <FallbackCulture>zh-TW</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+  </PropertyGroup>
+</Project>
